@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    .grid-cols-1 {
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+      align-self: center;
+    }
+   
+  }
+  
+  

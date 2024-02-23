@@ -1,0 +1,33 @@
+.custom-li { 
+  background-color: #280f3d; 
+  color: #4f347d; 
+  transition: background-color 0.3s, color 0.3s; 
+/* height:40px !important; */ 
+} 
+ 
+.first-li { 
+  background-color: #b72c6c; 
+  color: black; 
+} 
+ 
+.custom-li:hover { 
+  background-color: #b72c6c; 
+  color: black; 
+} 
+ 
+.first-li:hover ~ .custom-li { 
+  background-color: #280f3d; 
+  color: #4f347d; 
+} 
+.dropdown { 
+  max-height: 200px; /* Adjust the height as needed */ 
+  overflow-y: auto; 
+} 
+.input-container { 
+  width: 200px; /* Initial width */ 
+  transition: width 0.3s ease; /* Transition effect for width change */ 
+} 
+ 
+.input-expanded { 
+  width: 400px; /* Expanded width */ 
+}

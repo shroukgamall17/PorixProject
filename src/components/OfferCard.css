@@ -1,0 +1,33 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999; 
+}
+
+
+.left-details{
+    border-bottom:3px solid #8c2558;
+    border-left: 7px solid #8c2558;
+    border-top: 3px solid #8c2558;
+    border-right: 3px solid #8c2558;
+
+}
+
+.right-details{
+  border-bottom:3px solid #8c2558;
+  border-right: 7px solid #8c2558;
+  border-top: 3px solid #8c2558;
+  border-left: 3px solid #8c2558;
+}
+.left-large-circle{
+  border-left:3px solid #8c2558;
+}
+.right-large-circle{
+  border-right:3px solid #8c2558;
+}
+
+

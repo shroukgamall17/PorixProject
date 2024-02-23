@@ -1,0 +1,29 @@
+.fixed 
+{ 
+    border-top: 2px solid #b72c6c; 
+} 
+li { 
+    cursor: pointer; 
+  } 
+  .bottom-navbar { 
+    position: sticky; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: #130421; 
+    color: #ff69b4; 
+    padding: 0.5rem 0; 
+    height: 7rem; 
+    z-index: 1000; 
+  } 
+   
+  .my-activity-slider { 
+    border-radius: 40px 40px 0 0; 
+    position: absolute; 
+    bottom: 7rem; 
+    left: 0; 
+    right: 0; 
+    background-color:#1e0634; /* Adjust as needed */ 
+    padding: 1rem; 
+    z-index: 999; /* Ensure it's below the navigation bar */ 
+  }
